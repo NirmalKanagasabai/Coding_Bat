@@ -10,7 +10,7 @@ helloName("X") → "Hello X!
 
 */
 
-public class _0_helloName {
+public class E1_helloName {
 	
 	public static void main (String[] args) {
 		helloName("Bob");
