@@ -17,7 +17,14 @@ public class E18_twoChar {
 	}
 	
 	public static String twoChar(String str, int index) {
-		return str.substring(0, n) + str.substring(str.length()-n);
+		
+		int len = str.length();
+		if (index > 0 && len >= index+2) {
+		  return str.substring(index, index+2);
+		} else {
+		  return str.substring(0, 2);
+		}
+		
 	}
 
 }
