@@ -2,29 +2,22 @@ package Strings.Easy;
 
 /*
 
-Given a string, return a version without the first and last char, so "Hello" yields "ell". 
-The string length will be at least 2.
+Given 2 strings, return their concatenation, except omit the first char of each. 
+The strings will be at least length 1.
 
-withoutEnd("Hello") → "ell"
-withoutEnd("java") → "av"
-withoutEnd("coding") → "odin"
+nonStart("Hello", "There") → "ellohere"
+nonStart("java", "code") → "avaode"
+nonStart("shotl", "java") → "hotlava"
 
 */
 
 public class E10_nonStart {
 	
 	public static void main (String[] args) {
-		comboString("Hello", "World");
+		nonStart("Hello", "There");
 	}
 	
-	public static String comboString(String a, String b) {
-		int aLen = a.length();
-		int bLen = b.length();
-		
-		if (aLen > bLen) {
-			return b + a + b;
-		} else {
-			return a + b + a;
-		}
+	public static String nonStart(String a, String b) {
+		return a.substring(1) + b.substring(1);
 	}
 }
