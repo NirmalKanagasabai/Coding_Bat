@@ -16,7 +16,7 @@ firstTwo("ab") → "ab"
 public class E6_firstTwo {
 	
 	public static void main (String[] args) {
-		firstTwo("Hello");
+		System.out.println(firstTwo("Hello"));
 	}
 	
 	public static String firstTwo(String str) {

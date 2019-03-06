@@ -14,7 +14,7 @@ withoutEnd("coding") → "odin"
 public class E8_withoutEnd {
 	
 	public static void main (String[] args) {
-		withoutEnd("Hello");
+		System.out.println(withoutEnd("Hello"));
 	}
 	
 	public static String withoutEnd(String str) {

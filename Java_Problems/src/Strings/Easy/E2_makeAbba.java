@@ -15,7 +15,7 @@ makeAbba("What", "Up") → "WhatUpUpWhat"
 public class E2_makeAbba {
 	
 	public static void main (String[] args) {
-		makeAbba("Hi", "Bye");
+		System.out.println(makeAbba("Hi", "Bye"));
 	}
 	
 	public static String makeAbba(String a, String b) {

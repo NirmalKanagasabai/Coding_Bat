@@ -15,7 +15,7 @@ withouEnd2("ab") → ""
 public class E14_withouEnd2 {
 	
 	public static void main (String[] args) {
-		withouEnd2("Hello");
+		System.out.println(withouEnd2("Hello"));
 	}
 	
 	public static String withouEnd2(String str) {

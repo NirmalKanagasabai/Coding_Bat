@@ -17,7 +17,7 @@ makeTags("cite", "Yay") → "<cite>Yay</cite>"
 public class E3_makeTags {
 	
 	public static void main (String[] args) {
-		makeTags("i", "Yay");
+		System.out.println(makeTags("i", "Yay"));
 	}
 	
 	public static String makeTags(String tag, String word) {

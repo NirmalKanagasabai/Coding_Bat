@@ -10,7 +10,7 @@ So the string "WooHoo" yields "Woo"
 public class E7_firstHalf {
 	
 	public static void main (String[] args) {
-		firstHalf("WooHoo");
+		System.out.println(firstHalf("WooHoo"));
 	}
 	
 	public static String firstHalf(String str) {

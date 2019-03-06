@@ -15,7 +15,7 @@ theEnd("oh", true) → "o"
 public class E13_theEnd {
 	
 	public static void main (String[] args) {
-		theEnd("Hello", true);
+		System.out.println(theEnd("Hello", true));
 	}
 	
 	public static String theEnd(String str, boolean front) {

@@ -16,7 +16,7 @@ makeOutWord("[[]]", "word") → "[[word]]"
 public class E4_makeOutWord {
 	
 	public static void main (String[] args) {
-		makeOutWord("<<>>", "Yay");
+		System.out.println(makeOutWord("<<>>", "Yay"));
 	}
 	
 	public static String makeOutWord(String out, String word) {

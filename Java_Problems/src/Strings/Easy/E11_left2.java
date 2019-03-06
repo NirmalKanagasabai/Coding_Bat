@@ -14,7 +14,7 @@ left2("Hi") → "Hi"
 public class E11_left2 {
 	
 	public static void main (String[] args) {
-		left2("Hello");
+		System.out.println(left2("Hello"));
 	}
 	
 	public static String left2(String str) {

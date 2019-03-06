@@ -15,7 +15,7 @@ extraEnd("Hi") → "HiHiHi"
 public class E5_extraEnd {
 	
 	public static void main (String[] args) {
-		extraEnd("Hello");
+		System.out.println(extraEnd("Hello"));
 	}
 	
 	public static String extraEnd(String str) {

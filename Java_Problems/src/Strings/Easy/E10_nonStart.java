@@ -14,7 +14,7 @@ nonStart("shotl", "java") → "hotlava"
 public class E10_nonStart {
 	
 	public static void main (String[] args) {
-		nonStart("Hello", "There");
+		System.out.println(nonStart("Hello", "There"));
 	}
 	
 	public static String nonStart(String a, String b) {

@@ -14,7 +14,7 @@ right2("Hi") → "Hi"
 public class E12_right2 {
 	
 	public static void main (String[] args) {
-		right2("Hello");
+		System.out.println(right2("Hello"));
 	}
 	
 	public static String right2(String str) {

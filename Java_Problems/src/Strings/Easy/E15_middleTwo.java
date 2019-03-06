@@ -16,7 +16,7 @@ middleTwo("Practice") → "ct"
 public class E15_middleTwo {
 	
 	public static void main (String[] args) {
-		middleTwo("string");
+		System.out.println(middleTwo("string"));
 	}
 	
 	public static String middleTwo(String str) {

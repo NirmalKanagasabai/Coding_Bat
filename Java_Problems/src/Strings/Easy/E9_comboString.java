@@ -17,7 +17,7 @@ comboString("aaa", "b") → "baaab"
 public class E9_comboString {
 	
 	public static void main (String[] args) {
-		comboString("Hello", "Nirmal");
+		System.out.println(comboString("Hello", "Sun"));
 	}
 	
 	public static String comboString(String a, String b) {
