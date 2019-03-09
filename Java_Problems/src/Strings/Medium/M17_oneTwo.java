@@ -21,9 +21,8 @@ public class M17_oneTwo {
 	public static String oneTwo(String str) {
 		int length = str.length();
 		StringBuffer sb = new StringBuffer();
-		String output = "";
 		if (length < 3) {
-			output = str;
+			sb.append(str);
 		} else {
 			System.out.println("STR: " + str);
 			for (int i=0; i<length-2; i=i+3) {
