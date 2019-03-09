@@ -1,7 +1,5 @@
 package Strings.Medium;
 
-import java.util.Stack;
-
 /*
 
 Given two strings, a and b, create a bigger string made of the first char of a, 
